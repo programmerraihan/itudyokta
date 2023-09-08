@@ -1,0 +1,2 @@
+$sms_message = "আইটি উদ্যোক্তা ফাউন্ডেশন এর কম্পিউটার ট্রেনিং কোর্সে  আপনার ভর্তি  সম্পন্ন হয়েছে , {$request->name} and আপনার ইউজার আইডি: {$request->mobile}. আপনার লগইন : https://itudyokta.foundation/student/login";
+                send_sms($request->mobile, $sms_message);
